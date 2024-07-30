@@ -1,0 +1,85 @@
+body {
+  background-color: black;
+  background-image:url("tcrado.png") ;
+  background-repeat: no-repeat;
+  align-items: center;
+  height: 100%;
+  background-attachment: scroll;
+  }
+
+.principal {
+  display: flex;
+  
+  align-items: center;
+  text-align: center; 
+  height: 100vh;
+  
+ 
+
+}
+
+.caixa {
+  height: 250px;
+  border-radius: 20px;
+  margin: 0 auto;
+  backdrop-filter: blur(5px);
+  flex-wrap: wrap;
+  background-color: rgba(0, 0, 0, 0.7);
+  
+}
+
+* {
+margin: 0;
+padding: 0;
+border: 0;
+}
+
+.icone_pagina {
+  align-items: center;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+}
+
+.icone img{
+  padding: 20px;
+  width: 250px;
+}
+
+@media (max-width: 900px) {
+  body {
+    background-color: rgb(212, 32, 32);
+    background-image:url("tclaro.png") ;
+    background-repeat: no-repeat;
+    align-items: center;
+    }
+
+    .icone img{
+      padding: 20px;
+      width: 110px;
+    
+    }
+  
+    .caixa {
+      height: 770px;
+      border-radius: 20px;
+      width: 100px;
+      
+    }
+
+    .principal {
+      display: flex;
+      
+      flex-wrap: wrap;
+    }  
+    
+    .icone_pagina{
+      justify-content: center;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+    }
+
+    }
