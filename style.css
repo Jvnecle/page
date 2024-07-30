@@ -2,6 +2,7 @@ body {
   background-color: black;
   background-image:url("tcrado.png") ;
   background-repeat: no-repeat;
+  
   align-items: center;
   height: 100%;
   background-attachment: scroll;
@@ -52,6 +53,7 @@ border: 0;
   body {
     background-color: rgb(212, 32, 32);
     background-image:url("tclaro.png") ;
+    background-size: cover;
     background-repeat: no-repeat;
     align-items: center;
     }
